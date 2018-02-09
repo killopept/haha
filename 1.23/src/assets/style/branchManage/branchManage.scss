@@ -1,0 +1,54 @@
+input.el-input__inner{
+  padding:0 7px;
+}
+.el-input--suffix .el-input__inner{
+  padding-right:83px;
+}
+.el-message {
+  min-width: 180px;
+  padding: 10px 15px 10px 20px;
+}
+.el-message--warning {
+  background-color: #fffefe;
+  border-color: #e4e3e1;
+}
+button#del{
+  background:transparent;
+  color:#f04134;
+  &:hover{
+    color:#fff;
+    background:#f04134;
+    border:1px solid #f04134
+  }
+}
+.el-button+.el-button{
+  margin-left:0;
+}
+span#primary {
+  & div.el-dialog__header{
+    text-align: start;
+    border-bottom:1px solid #e9e9e9;
+  }
+  & div.el-dialog__body{
+    border-bottom: 1px solid #e9e9e9;
+    padding:20px 20px;
+  }
+  & div.el-dialog__footer{
+    padding:15px;
+  }
+}
+// span#primary div.el-dialog__body{
+//   border-bottom: 1px solid #e9e9e9;
+//   padding:20px 20px;
+// }
+// span#primary div.el-dialog__footer{
+//   padding:15px;
+// }
+div.el-dialog div.el-dialog__body{
+  padding:20px 20px;
+  border-bottom:1px solid #e9e9e9;
+  border-top:1px solid #e9e9e9;
+}
+.el-tree-node__label {
+  font-size: 12px;
+}

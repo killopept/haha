@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN" xml:lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+<meta name="renderer" content="webkit"/>
+<title><%=htmlWebpackPlugin.options.title%></title>
+<%if(htmlWebpackPlugin.options.isMobile){%>
+<script>var setClient = function () { var e = document.documentElement, t = e.clientWidth; e.style.fontSize = 100 * t / 750 + "px" }; setClient(), window.addEventListener("resize", setClient, !1);</script>
+<%}%>
+<% for(var i = 0; i < htmlWebpackPlugin.options.extCSS.length; i++) {%>
+  <link rel=stylesheet type=text/css href='<%= htmlWebpackPlugin.options.extCSS[i] %>'>
+<%}%>
+<% for(var i = 0; i < htmlWebpackPlugin.options.extJS.length; i++) {%>
+  <script src='<%= htmlWebpackPlugin.options.extJS[i] %>'></script>
+<%}%>
+</head>
+<body>
+  <div class="app-wrap">
+    <div id="MOUNT_NODE"></div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+.pageCreatePublish{
+  padding:30px 30px;
+
+  .border{
+    border:1px solid #e9e9e9;
+    font-size: 14px;
+    transition: all .3s;
+    margin-bottom:10px;
+    color: rgba(0,0,0,.85);
+    line-height:60px;
+    font-weight: 800;
+    cursor: pointer;
+    &:hover{
+      box-shadow: 0 1px 6px rgba(0,0,0,.2);
+      border-color: transparent;
+    }
+    &.main{
+      padding:0;
+    }
+    &.el-header{
+      a{
+        color: rgb(64, 64, 64);
+        font-size: 14px;
+        font-weight: 600;
+        i{
+          margin-right:15px;
+        }
+        .head-sp{
+          margin-left:10px;
+        }
+      }
+    }
+  }
+
+  .content{
+    border:1px solid #e9e9e9;
+    transition: all .3s;
+    &:hover{
+      box-shadow: 0 1px 6px rgba(0,0,0,.2);
+      border-color: transparent;
+    }
+
+  .el-col{
+    width:40%;
+  }
+    .text-header{
+      // color:#
+      padding: 0 32px;
+      height: 48px;
+      line-height: 48px;
+      background: #fff;
+      border-bottom: 1px solid #e9e9e9;
+      border-radius: 2px 2px 0 0;
+    }
+
+    .text-form{
+      padding:24px 140px;
+
+      .demo-ruleForm{
+        font-size:12px;
+      }
+      .el-select{
+        width:40%;
+      }
+      .el-input-number{
+        width:40%;
+      }
+      .el-col{
+        width:80%;
+        .el-autocomplete{
+          width:100%;
+          .el-input{
+          width:100%;
+
+            input{
+            width:100%;
+            }
+          }
+        }
+        .othData{
+          width:40%;
+        }
+      }
+      .el-dialog__body{
+        padding:0;
+      }
+      .el-form-item__label{
+        width:120px;
+      }
+
+      textarea{
+        width:40%
+      }
+      .outstyle{
+        background-color: #ffffff;
+        color:#606266;
+        border:1px dashed rgb(217, 217, 217);
+        width:420px;
+        margin-top:5px;
+        &:hover{
+          background-color: #fff;
+          border-color: #108ee9;
+          color: #108ee9;
+        }
+      }
+      .el-table_1_column_4  {
+        border-right: none;
+      }
+    }
+  }
+  .el-table--border td, .el-table--border th{
+    border-right:none;
+  }
+  .el-table--border .has-gutter th:nth-last-of-type(2){
+    border-right:none;
+  }
+}

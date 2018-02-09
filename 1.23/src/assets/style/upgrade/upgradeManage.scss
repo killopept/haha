@@ -1,0 +1,50 @@
+.upGradeManage{
+  padding: 20px 30px;
+  .page-table{
+    width:100%;
+    margin:0 auto;
+    .el-table{
+      border-radius:5px;
+      font-size:12px;
+      tbody{
+        tr{
+          td{
+            height:50px;
+            color: rgba(0,0,0,.65);
+          }
+        }
+      } 
+      &.pade-table{
+        .el-table__expanded-cell{
+          padding: 0 0 0 50px;
+        }
+      }
+    }
+    .el-header{
+      padding:0px;
+      height:50px;
+    }
+    .el-main{
+      padding:0px;
+    }
+    .el-footer{
+      text-align:right;
+      padding:20px 0;
+    }
+    .el-form-item{
+      font-size:12px;
+    }
+    .el-radio__label{
+      font-size:12px;
+    }
+    .el-button{
+      &+.el-button{
+        margin-left: 0px;
+      }
+    }
+  }
+}
+.el-popover{
+  .povP{padding: 10px 10px 20px;}
+  .povD{text-align: right;}
+}

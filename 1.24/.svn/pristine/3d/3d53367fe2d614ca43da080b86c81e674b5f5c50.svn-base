@@ -1,0 +1,45 @@
+const path = require('path')
+const env = require('./env')
+
+const resolve = dir => path.join(__dirname, '..', dir)
+
+module.exports = {
+  build: {
+    env: env.prod,
+    extJS: [
+      'https://cdn.bootcss.com/axios/0.17.1/axios.min.js'
+    ],
+    index: resolve('dist/index.html'),
+    assetsRoot: resolve('dist'),
+    assetsSubDir: '',
+    assetsPublicPath: '/Vinmanage/',
+    projectName: '内部管理系统',
+    productionSourceMap: false,
+    lint: false,
+    gzip: false,
+    distServerPort: 3001,
+    distServerPath: 'dist',
+    gzipExtensions: ['js', 'css'],
+    isMobile: false
+  },
+  dev: {
+    env: env.dev,
+    extJS: [
+      'https://cdn.bootcss.com/axios/0.17.1/axios.min.js'
+    ],
+    port: 3000,
+    lint: true,
+    autoOpenBrowser: true,
+    projectName: '内部管理系统',
+    assetsSubDir: '',
+    assetsPublicPath: '/',
+    proxyTable: {
+      '/inmanage': {
+        target: 'https://flameapp.cn',
+        changeOrigin: true
+      }
+    },
+    isMobile: false,
+    cssSourceMap: true
+  }
+}

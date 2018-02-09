@@ -1,0 +1,12 @@
+.no-padding .el-table__expanded-cell{
+  padding: 0 0 0 50px
+}
+.my-dialog .el-dialog{
+  width: 520px
+}
+.my-dialog .el-dialog__body{
+  padding: 20px 0 0
+}
+.my-dialog main.el-main{
+  padding: 10px 20px
+}

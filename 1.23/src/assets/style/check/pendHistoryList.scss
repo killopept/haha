@@ -1,0 +1,54 @@
+.applyHistoryList{
+  padding: 20px 30px;
+  .page-table{
+    margin: 0 auto;
+    .el-header{
+      padding:0px;
+      .head-rt{
+        padding-left:0px!important;
+        padding-right:0px!important;
+      }
+    }
+    .el-main{
+      padding:0;
+      .el-table{
+        border-radius:5px;
+        font-size:12px;
+        tbody{
+          tr{
+            td{
+              height:45px;
+              padding:0;
+              color: rgba(0,0,0,.65);
+            }
+          }
+        } 
+      }
+      .el-dialog__wrapper{
+        .el-dialog{
+          width:520px;
+        }
+      }
+      .dialogDetails{
+        padding: 0 16px;
+        tr{
+          td{
+            border:none;
+            height:28px;
+            padding:0;
+            font-size: 12px;
+            color:#000;
+            text-align:right;
+            &+td{
+              color:rgba(0,0,0,.65);
+              text-align:left;
+            }
+          }
+        }
+      }
+    }
+    .el-footer{
+      text-align:right;padding:0px;margin-top:20px;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+.pageRoleManage{
+  .filter-tree{
+    padding:10px 5px;
+  }
+  .el-select{
+    &.el-select--small{
+      width:100%;
+    }
+  } 
+  .el-cascader{
+    &.el-cascader--small{
+      width:100%;
+    }
+  } 
+  .app-narrow-table{
+    padding: 0px 25px;
+  }
+  .el-footer{
+    text-align:right;
+    padding:20px 0;
+  }
+  .el-input__inner{
+    padding:0 5px;
+    font-size:12px;
+  }
+  tbody{
+    tr{
+      td{
+        height:40px;
+        padding:0;
+      }
+    }
+  }
+  .el-tree-node__label{
+    font-size:12px;
+  }
+  .button-group{
+    span{
+      .el-buttom{
+        margin-right:20px;
+      }
+    }
+  } 
+  .el-table__empty-block{
+    min-height:40px;
+    height:40px;
+  }
+  .el-cascader-menu{
+    li{
+      font-size:12px;
+    }
+  }
+  .bind-foot{
+    margin-top: 20px;
+    text-align:right;
+  }
+}
+.el-table{
+  border-radius:4px;
+}
+.el-select-dropdown__item{
+  font-size:12px;
+}
+.el-cascader-menu__item{
+  font-size:12px;
+}
+.el-dialog__wrapper{
+  text-align:left;
+}

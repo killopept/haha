@@ -1,0 +1,46 @@
+.upGradeManage{
+  .page-table{
+    .detail-foot{
+      margin-top: 20px;
+      text-align: right;
+    }
+    .el-table{ 
+      &.pade-table{
+        .el-table__expanded-cell{
+          padding: 0 0 0 50px;
+        }
+      }
+      &.version-detail-table{
+        tr{
+          th{
+            padding:0;
+            height:40px;
+          }
+        }
+        tbody{
+          tr{
+            td{
+              height:39px;
+              color: rgba(0,0,0,.65);
+            }
+          }
+        } 
+      }
+    }
+    .el-form-item{
+      font-size:12px;
+    }
+    .el-radio__label{
+      font-size:12px;
+    }
+    .el-button{
+      &+.el-button{
+        margin-left: 0px;
+      }
+    }
+  }
+}
+.el-popover{
+  .povP{padding: 10px 10px 20px;}
+  .povD{text-align: right;}
+}

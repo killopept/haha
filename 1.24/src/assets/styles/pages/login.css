@@ -1,0 +1,141 @@
+.pageLogin {
+  font-size: 14px;
+  width: 100%;
+  height: 100%;
+  background-image: -webkit-gradient(linear, 50% 0, 45% 100%, from(#edf3fe), to(#d5d2f0));
+  overflow: hidden;
+  position: absolute;
+}
+
+.pageLogin .loginBox {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 9;
+  width: 460px;
+  padding: 60px 80px 40px;
+  background-color: #fff;
+  margin: -180px 0 0 -230px;
+  box-shadow: 0 9px 28px -4px rgba(73, 89, 238, 0.24);
+  border-radius: 8px;
+  animation: bounceInDown .3s .3s both;
+}
+
+.pageLogin .input {
+  margin-bottom: 15px;
+  position: relative;
+  transition: border .6s;
+}
+
+.pageLogin .input:after {
+  content: "";
+  display: block;
+  height: 0;
+  width: 0;
+  border-bottom: 1px solid #ccc;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: width .3s ease;
+}
+
+.pageLogin .input.focus input {
+  border-bottom-color: transparent;
+}
+
+.pageLogin .input.focus:after {
+  width: 100%;
+}
+
+.pageLogin .input.vcode input {
+  width: 60%;
+}
+
+.pageLogin .input.vcode img {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.pageLogin .input.vcode.focus:after {
+  width: 60%;
+}
+
+.pageLogin .input.pre-icon input {
+  padding-left: 46px;
+}
+
+.pageLogin .input.pre-icon i {
+  height: 42px;
+  width: 42px;
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  background-position: center center;
+  background-size: 20px auto;
+  background-repeat: no-repeat;
+}
+
+.pageLogin .input.pre-icon i.user {
+  background-image: url("../../images/user.svg");
+}
+
+.pageLogin .input.pre-icon i.pswd {
+  background-image: url("../../images/pswd.svg");
+}
+
+.pageLogin input {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 10px 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.pageLogin .btn-wrap {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.pageLogin .btn-wrap button {
+  background-color: #57ACEF;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  width: 100%;
+  height: 48px;
+  line-height: 48px;
+  border-radius: 4px;
+  font-size: 16px;
+  outline: none;
+  transition: background-color .3s;
+}
+
+.pageLogin .btn-wrap button:hover {
+  background-color: #297CD3;
+}
+
+.pageLogin .loginBox .avatar {
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  position: absolute;
+  left: 50%;
+  top: -60px;
+  margin-left: -60px;
+  padding: 10px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.pageLogin .loginBox .avatar img {
+  border-radius: 50%;
+  display: block;
+  height: 100%;
+  width: 100%;
+  box-shadow: 0 3px 12px rgba(73, 89, 238, 0.16);
+}
+ 
+
+ /*# sourceMappingURL= login.css.map */

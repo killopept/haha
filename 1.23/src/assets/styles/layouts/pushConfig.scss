@@ -1,0 +1,42 @@
+@import "../public/variable.scss";
+
+.pushConfig {
+  .border-box {
+    border: 1px solid $borderDefault;
+    border-radius: 4px;
+    min-height: 100%;
+
+    .border-box-head {
+      padding: 15px 20px 8px;
+      font-size: 16px;
+      position: relative;
+      border-bottom: 1px dashed $borderDefault;
+    }
+
+    .border-box-content {
+      position: relative;
+      padding: 20px;
+    }
+  }
+}
+
+.createMessage-codePreview {
+  margin-top: 188px;
+  border: 1px solid $borderDefault;
+  border-radius: 4px;
+  max-width: 260px;
+
+  h3 {
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 1px solid #d9d9d9;
+    color: #128ae3;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+  pre {
+    padding: 5px 0 5px 16px;
+  }
+}

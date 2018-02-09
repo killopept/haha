@@ -1,0 +1,15 @@
+.third-party-list .el-dialog{
+  width: 520px
+}
+.third-party-list .el-dialog__body{
+  padding: 20px 0 0
+}
+.third-party-list main.el-main{
+  padding: 10px 20px
+}
+.nomargin{
+  margin: 0;
+}
+.divide{
+  color: #ccc
+}

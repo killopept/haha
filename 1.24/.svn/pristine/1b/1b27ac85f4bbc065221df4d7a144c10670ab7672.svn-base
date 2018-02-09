@@ -1,0 +1,33 @@
+.msg-template .el-dialog{
+  width: 750px
+}
+.msg-template .el-dialog__body{
+  padding: 20px 0 0
+}
+.msg-template main.el-main{
+  padding: 10px 20px
+}
+.YouMeng .el-input,.YouMeng .el-textarea{
+  width: 80%
+}
+.left-margin{
+  margin-left: 20px
+}
+.YouMeng .el-input.el-date-editor{
+  width: 200px
+}
+.GeTui .el-input-number--small{
+  width: 80px
+}
+.GeTui .input-number-middle.el-input-number--small{
+  width: 100px
+}
+.GeTui .el-input,.GeTui .el-textarea{
+  width: 80%
+}
+.GeTui .el-input.el-date-editor{
+  width: 200px
+}
+.el-input-number .el-input.el-input--small{
+  width: 100%
+}
